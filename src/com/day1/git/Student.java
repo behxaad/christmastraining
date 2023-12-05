@@ -13,7 +13,7 @@ public class Student {
 		System.out.println("Hi " + name + ". How can I help you?");
 
 		Student student = new Student();
-		System.out.println(student.enrollToNCC());
+		System.out.println(student.enrollToSocialService());
 
 	}
 
@@ -23,6 +23,14 @@ public class Student {
 
 	public String enrollToNCC() {
 		return name + " is enrolled to NCC. Having age " + age + " from Sem " + sem;
+
+	}
+	public String enrollToSocialService() {
+		return name + " is enrolled to Social service. Having age " + age + " from Sem " + sem;
+
+	}
+	public String enrollToSwimmimg() {
+		return name + " is enrolled to Swimmimg. Having age " + age + " from Sem " + sem;
 
 	}
 
