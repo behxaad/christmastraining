@@ -14,6 +14,9 @@ public class Student {
 
 		Student student = new Student();
 		System.out.println(student.enrollToNCC());
+		
+		Teacher teacher = new Teacher();
+		System.out.println(teacher.mathsResult(name));
 
 	}
 
